@@ -49,6 +49,10 @@
           "role": "mainHtml"
         }
       ]
+    },
+    "httpCodeStore": {
+      "id": "httpCodeStore",
+      "files": []
     }
   }
 }
