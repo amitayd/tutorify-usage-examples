@@ -2,12 +2,19 @@
 <script src="../../lib/hogan/hogan.js"></script>
 <script src="../../lib/lodash/lodash.js"></script>
 <script src="../../lib/q/q.js"></script>
-<script type="text/javascript" src="../../dist/tutorify.js"></script>
 <script src="../../bower_components/octokit/octokit.js"></script>
+<script type="text/javascript" src="../../dist/tutorify.js"></script>
 
 
 <script>
-    var codeStore = Tutorify.GithubCodeStore.create(null, 'amitayd', 'tutorify-usage-examples', {});
-    var settings = {};
+    var codeStore = Tutorify.GithubCodeStore.create('641dfa2143facae4077274806a3a7b176cce553e', 'amitayd', 'tutorify-usage-examples', {});
+    var settings = {
+          liveUpdate: true,
+          fontSize: 12
+      };
     Tutorify.init(settings, codeStore)
 </script>
+
+<div data-code-group="exercise-1"></div>
+
+WTF?
