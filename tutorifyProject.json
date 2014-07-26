@@ -64,6 +64,21 @@
           "role": "mainHtml"
         }
       ]
+    },
+    "settings": {
+      "id": "settings",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        },
+        {
+          "name": "index.html",
+          "mode": "html",
+          "role": "mainHtml"
+        }
+      ]
     }
   }
 }
