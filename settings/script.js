@@ -14,6 +14,9 @@ var settings = {
     resourceCss: [ // Css to include when the code is being run
         {src: 'resources/resourceStyle.css'}
     ],
+    fileEditorOptions: {
+        theme: 'monokai'
+    }
 
     
     
