@@ -34,6 +34,21 @@
           "role": "mainHtml"
         }
       ]
+    },
+    "githubCodeStore": {
+      "id": "githubCodeStore",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        },
+        {
+          "name": "index.html",
+          "mode": "html",
+          "role": "mainHtml"
+        }
+      ]
     }
   }
 }
