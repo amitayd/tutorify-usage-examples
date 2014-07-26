@@ -24,6 +24,16 @@
     "playground": {
       "id": "playground",
       "files": []
+    },
+    "basic": {
+      "id": "basic",
+      "files": [
+        {
+          "name": "index.html",
+          "mode": "html",
+          "role": "mainHtml"
+        }
+      ]
     }
   }
 }

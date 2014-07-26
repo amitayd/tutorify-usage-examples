@@ -1,0 +1,19 @@
+<script type="text/javascript" src="../../lib/ace/src-noconflict/ace.js" data-ace-base="../../lib/ace/src-noconflict" charset="utf-8"></script>
+<script src="../../lib/jquery/jquery.min.js"></script>
+<script src="../../lib/hogan/hogan.js"></script>
+<script src="../../lib/lodash/lodash.js"></script>
+<script src="../../lib/q/q.js"></script>
+<script src="../../bower_components/octokit/octokit.js"></script>
+<script type="text/javascript" src="../../dist/tutorify.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../css/snipper.css">
+
+
+<script>
+    var codeStore = Tutorify.GithubCodeStore.create('641dfa2143facae4077274806a3a7b176cce553e', 'amitayd', 'tutorify-usage-examples', {});
+    var settings = {};
+    Tutorify.init(settings, codeStore)
+</script>
+
+First sample: <div data-code-group="sample1"></div>
+Second sample: <div data-code-group="sample2"></div>
