@@ -2,7 +2,7 @@ var codeStore = Tutorify.HttpCodeStore.create('../jsObjectPatterns/tutorify-js-o
     
 var settings = {
     fontSize: 14, //Font size to use for the text editor,
-    iframeEditor: true, // whether to load the editor in an iframe (to isolate dom),
+    iframeEditor: false, // whether to load the editor in an iframe (to isolate dom),
     iframeEditorSettings: {
         acePath: '/lib/ace/src-min' // Configure the ace editor path for the iframe if needed
     },
