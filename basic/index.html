@@ -10,8 +10,7 @@
 <link rel="stylesheet" type="text/css" href="../../css/snipper.css">
 
 <script>
-    var codeStore = Tutorify.GithubCodeStore.create(
-        null, 'amitayd', 'tutorify-playground', {});
+    var codeStore = Tutorify.HttpCodeStore.create('tutorify-usage-examples/');
     var settings = {};
     Tutorify.init(settings, codeStore)
 </script>
